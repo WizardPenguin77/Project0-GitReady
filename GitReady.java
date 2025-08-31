@@ -10,7 +10,7 @@ public class GITReady {
         int guess = 0;
         int attempts = 0;
 
-        //System.out.println("Welcome to the Number Guessing Game!");
+        System.out.println("Welcome to the Number Guessing Game!");
         System.out.println("I'm thinking of a number between 1 and 100.");
 
         while (guess != numberToGuess) {
@@ -28,7 +28,7 @@ public class GITReady {
                 }
             } else {
                 System.out.println("Please enter a valid number.");
-                scanner.next(); 
+                scanner.next(); // discard invalid input
             }
         }
 
