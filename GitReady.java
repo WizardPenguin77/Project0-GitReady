@@ -3,11 +3,10 @@ import java.util.Random;
 
 public class GitReady {
     public static void main(String[] args) {
-        // creating a scanner
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        //int numberToGuess = random.nextInt(100) + 1; // 1 to 100
+        int numberToGuess = random.nextInt(100) + 1; // 1 to 100
         int guess = 0;
         int attempts = 0;
 
