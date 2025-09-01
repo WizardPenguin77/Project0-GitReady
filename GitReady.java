@@ -3,6 +3,7 @@ import java.util.Random;
 
 public class GitReady {
     public static void main(String[] args) {
+        // creating a scanner
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
