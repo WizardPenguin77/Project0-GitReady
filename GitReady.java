@@ -11,6 +11,7 @@ public class GitReady {
         int guess = 0;
         int attempts = 0;
 
+        // asks the user to guess
         System.out.println("Welcome to the Number Guessing Game!");
         System.out.println("I'm thinking of a number between 1 and 100.");
 
